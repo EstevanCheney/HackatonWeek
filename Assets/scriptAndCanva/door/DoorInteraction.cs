@@ -8,19 +8,24 @@ public class BunkerDoorInteraction : MonoBehaviour
     public float animationDuration = 5f; 
 
     private bool isOpen = false;
+
+        private bool isPlayerNearby = false;
     private bool isAnimating = false;
+
+    public GameObject interactionMessage;
     private Vector3 initialPosition;
     private Quaternion initialRotation;
 
     void Start()
     {
+        interactionMessage.SetActive(false);
         initialPosition = doorTransform.position;
         initialRotation = doorTransform.rotation;
     }
 
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.F) && !isAnimating)
+        if (isPlayerNearby && Input.GetKeyDown(KeyCode.F) && !isAnimating)
         {
             if (isOpen)
             {
@@ -92,4 +97,22 @@ public class BunkerDoorInteraction : MonoBehaviour
         isOpen = false;
         isAnimating = false;
     }
+        void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isPlayerNearby = true;
+            interactionMessage.SetActive(true);
+        }
+    }
+
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Player"))
+        {
+            isPlayerNearby = false;
+            interactionMessage.SetActive(false);
+        }
+    }
 }
+
