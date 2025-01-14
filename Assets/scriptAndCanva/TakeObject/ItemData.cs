@@ -6,5 +6,6 @@ using System.Collections.Generic;
 public class ItemData : ScriptableObject
 {
     public string name;
+    public Sprite visual;
     public GameObject prefab;
 }
