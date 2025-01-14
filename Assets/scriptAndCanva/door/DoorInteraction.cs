@@ -48,7 +48,7 @@ public class BunkerDoorInteraction : MonoBehaviour
         Quaternion targetRotation = startRotation * Quaternion.Euler(0f, 0f, rotationAngle);
 
         Vector3 startPosition = doorTransform.position;
-        Vector3 targetPosition = startPosition + new Vector3(-moveDistance, 0f, 0f);
+        Vector3 targetPosition = startPosition + new Vector3(moveDistance, 0f, 0f);
 
         while (elapsedTime < animationDuration)
         {
