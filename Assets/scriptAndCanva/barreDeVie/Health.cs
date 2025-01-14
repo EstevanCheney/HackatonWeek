@@ -1,33 +1,44 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 using UnityEngine.UI;
 using TMPro;
 
-public class Health : MonoBehaviour
+public class HealthBar : MonoBehaviour
 {
     public float health = 75f;
     public float maxHealth = 100f;
 
     public Image healthBarImage;
-    public TextMeshProUGUI healthText;
-
-    // Update is called once per frame
+    public TextMeshProUGUI interactionCounter;
+    
     void Update()
     {
+        UpdateHealthBar();
+        if (Input.GetKeyDown(KeyCode.A) && CanHeal())
+        {
+            health = 100f;
+            interactionCounter.text = "0/1";
+        }
+    }
+
+    void UpdateHealthBar()
+    {
         healthBarImage.fillAmount = health / maxHealth;
-        healthText.text = health + " / " + maxHealth;
-
-        health = Mathf.Clamp(health, 0f, maxHealth);
     }
 
-    public void DamageButton(int damageAmount)
+    public void Damage(float damageAmount)
     {
-        health -= damageAmount;
+        health = Mathf.Clamp(health - damageAmount, 0f, maxHealth);
+        UpdateHealthBar();
     }
 
-    public void HealButton(int healAmount)
+    public void Heal(float healAmount)
     {
-        health += healAmount;
+        health = Mathf.Clamp(health + healAmount, 0f, maxHealth);
+        UpdateHealthBar();
+    }
+
+    private bool CanHeal()
+    {
+        return interactionCounter != null && interactionCounter.text == "1/1";
     }
 }
