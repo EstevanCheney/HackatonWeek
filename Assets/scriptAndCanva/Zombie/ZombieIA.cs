@@ -10,6 +10,11 @@ public class ZombieIA : MonoBehaviour
 
     public GameObject _TargetLook;
 
+    int health = 100;
+    public void TakeDamage(int damage)
+    {
+        health -= damage;
+    }
 
     // Start is called before the first frame update
     void Start()
