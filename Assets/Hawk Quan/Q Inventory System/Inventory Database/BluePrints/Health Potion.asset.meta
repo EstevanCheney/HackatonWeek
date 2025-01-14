@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 8998a66d78dc85b46bbae8d202005f18
+timeCreated: 1500638180
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/BluePrints/Health
+    Potion.asset
+  uploadId: 221379

@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 1d95952c66ba79247af2e764004105a5
+timeCreated: 1497798608
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Example/2D/Prefabs/Particles/DeathParticle
+    1.prefab
+  uploadId: 221379

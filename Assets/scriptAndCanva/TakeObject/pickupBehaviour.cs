@@ -2,12 +2,10 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class PickupBehaviour : MonoBehaviour
+public class pickupBehaviour : MonoBehaviour
 {
     [SerializeField]
     private Inventory inventory;
-
-    private Item currentItem;
 
     public void DoPickup(Item item)
     {
@@ -17,7 +15,7 @@ public class PickupBehaviour : MonoBehaviour
             return;
         }
 
-        inventory.addItem(currentItem.item);
-        Destroy(currentItem.gameObject);
+        inventory.addItem(item.itemData);
+        Destroy(item.gameObject);
     }
 }

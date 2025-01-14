@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4306533699265804996}
   - component: {fileID: 792684829026370760}
   - component: {fileID: 5773294258283640535}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ObjectToTake
   m_TagString: Item
   m_Icon: {fileID: 0}
@@ -123,4 +123,4 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b28f0db43fd07742a002f89cf6fdddf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  item: {fileID: 11400000, guid: f84361206aef19347b46eca4ee03dd93, type: 2}
+  itemData: {fileID: 11400000, guid: f84361206aef19347b46eca4ee03dd93, type: 2}

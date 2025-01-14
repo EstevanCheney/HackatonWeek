@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 1fd128eba4aece84cb0e56b25d8b5388
+timeCreated: 1499909931
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Example/2D/Prefabs/Inventory/Craft/CraftSlot.prefab
+  uploadId: 221379

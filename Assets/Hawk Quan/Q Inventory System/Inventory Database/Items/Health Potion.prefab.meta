@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: 34262a99339ada1448bfa0e6e3f65166
+timeCreated: 1500638155
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/Items/Health
+    Potion.prefab
+  uploadId: 221379

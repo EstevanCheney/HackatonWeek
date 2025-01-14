@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: aa8f5ddae8c2b2d4c8e2bc0267905e1f
+timeCreated: 1506409937
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/Items/ItemScriptObjects/Sphere.asset
+  uploadId: 221379

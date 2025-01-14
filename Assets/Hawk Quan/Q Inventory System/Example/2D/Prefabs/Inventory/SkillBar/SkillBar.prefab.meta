@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4aa28473ad7faba4c9a59b63b86bceaa
+timeCreated: 1500902265
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Example/2D/Prefabs/Inventory/SkillBar/SkillBar.prefab
+  uploadId: 221379

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 97f35e3883917b9409350037eace236f
+timeCreated: 1501228044
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Empty Example/Prefabs/Craft/CraftItem.prefab
+  uploadId: 221379

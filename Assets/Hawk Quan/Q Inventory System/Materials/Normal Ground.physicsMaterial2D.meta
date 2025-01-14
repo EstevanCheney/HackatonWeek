@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3ab3d59506a354245893d1589cd03e8b
+timeCreated: 1499265499
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Materials/Normal Ground.physicsMaterial2D
+  uploadId: 221379

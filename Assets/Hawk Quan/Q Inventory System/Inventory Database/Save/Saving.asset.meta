@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 3cd3b6abc368fa34980cfda135d74278
+timeCreated: 1507972731
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/Save/Saving.asset
+  uploadId: 221379

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: fc33de46f09a1ed4584ccaaf12a28623
+timeCreated: 1506408055
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/Items/Cube.prefab
+  uploadId: 221379

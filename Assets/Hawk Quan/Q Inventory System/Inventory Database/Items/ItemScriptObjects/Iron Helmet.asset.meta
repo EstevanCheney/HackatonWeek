@@ -1,0 +1,17 @@
+fileFormatVersion: 2
+guid: a25608995c4e4e64a89cbcfbb0b74ff1
+timeCreated: 1501086175
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/Items/ItemScriptObjects/Iron
+    Helmet.asset
+  uploadId: 221379

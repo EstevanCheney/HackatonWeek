@@ -3303,8 +3303,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -224.69107, y: 90.744385}
-  m_SizeDelta: {x: 105.5214, y: 30.5357}
+  m_AnchoredPosition: {x: -221.82918, y: 129.43143}
+  m_SizeDelta: {x: 126.7798, y: 40.1985}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &117485516
 MonoBehaviour:
@@ -9779,8 +9779,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 50, y: -12.5}
-  m_SizeDelta: {x: 100, y: 25}
+  m_AnchoredPosition: {x: 57.5, y: -16.5}
+  m_SizeDelta: {x: 115, y: 33}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &406232407
 MonoBehaviour:
@@ -19194,7 +19194,7 @@ MonoBehaviour:
   content: []
   InventoryPanel: {fileID: 1591606697}
   inventorySlotParent: {fileID: 423920006}
-  actionPanel: {fileID: 117485514}
+  actionPanel: {fileID: 423920005}
   useButton: {fileID: 406232405}
   player: {fileID: 424773402}
 --- !u!4 &695544130
@@ -47173,8 +47173,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0.3868, y: 0.6061}
-  m_SizeDelta: {x: 98.5184, y: 24.0778}
+  m_AnchoredPosition: {x: 0.7447, y: 1.0002}
+  m_SizeDelta: {x: 114.1043, y: 33.3631}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1633855686
 MonoBehaviour:
@@ -47196,7 +47196,7 @@ MonoBehaviour:
   m_ChildAlignment: 0
   m_StartCorner: 0
   m_StartAxis: 0
-  m_CellSize: {x: 100, y: 25}
+  m_CellSize: {x: 115, y: 33}
   m_Spacing: {x: 0, y: 0}
   m_Constraint: 0
   m_ConstraintCount: 2
@@ -52811,7 +52811,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   pickupRange: 2.6
-  inventory: {fileID: 695544129}
+  playerPickupBehaviour: {fileID: 424773408}
   pickupText: {fileID: 1711691887}
   layerMask:
     serializedVersion: 2

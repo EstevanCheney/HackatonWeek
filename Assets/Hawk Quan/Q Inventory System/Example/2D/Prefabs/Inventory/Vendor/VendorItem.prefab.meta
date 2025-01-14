@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 997f5cc7fa9fde742bcb68fa8f4b1688
+timeCreated: 1500803321
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 100100000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Example/2D/Prefabs/Inventory/Vendor/VendorItem.prefab
+  uploadId: 221379

@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: d0bc53c2ecd9b48469be9ede66d8cd9b
+timeCreated: 1507980739
+licenseType: Store
+DefaultImporter:
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Example/2D/SwitchScene.unity
+  uploadId: 221379

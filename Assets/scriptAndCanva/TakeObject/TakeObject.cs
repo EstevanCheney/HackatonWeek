@@ -2,13 +2,14 @@ using Unity.Hierarchy;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngineInternal;
 
 public class TakeObject : MonoBehaviour 
 {
     [SerializeField]
     private float pickupRange = 2.6f;
 
-    public Inventory inventory;
+    public pickupBehaviour playerPickupBehaviour;
 
     [SerializeField]
     private GameObject pickupText;
@@ -27,8 +28,7 @@ public class TakeObject : MonoBehaviour
 
                 if (Input.GetKeyDown(KeyCode.F))
                 {
-                    inventory.content.Add(hit.transform.gameObject.GetComponent<Item>().item);
-                    Destroy(hit.transform.gameObject);
+                    playerPickupBehaviour.DoPickup(hit.transform.gameObject.GetComponent<Item>());
                 }
             }
         } else {

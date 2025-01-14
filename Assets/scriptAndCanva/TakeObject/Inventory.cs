@@ -71,13 +71,12 @@ public class Inventory : MonoBehaviour
 
     public void OpenActionPanel(ItemData item)
     {
-        itemCurrentlySelected = item;
-
         if (item == null)
         {
             actionPanel.SetActive(false);
             return;
         }
+        itemCurrentlySelected = item;
         actionPanel.SetActive(true);
     }
 

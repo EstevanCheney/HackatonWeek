@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Microsoft.Unity.VisualStudio.Editor;
 
 [CreateAssetMenu(fileName = "Item", menuName = "Items/New item")]
 public class ItemData : ScriptableObject

@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: e4b3c5835d18ac94697e4dbdcc28a824
+timeCreated: 1500638137
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/ItemAttributes/Health.asset
+  uploadId: 221379

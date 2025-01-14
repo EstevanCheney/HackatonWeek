@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: b3093a33d236b724294bf0d14f3dfbc6
+timeCreated: 1499242624
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 6200000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Materials/Smooth.physicsMaterial2D
+  uploadId: 221379

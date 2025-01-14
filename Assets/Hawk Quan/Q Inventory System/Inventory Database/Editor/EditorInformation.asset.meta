@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 4ca05e9f5b2773b47bd1793bcd132021
+timeCreated: 1501260026
+licenseType: Store
+NativeFormatImporter:
+  mainObjectFileID: 11400000
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+AssetOrigin:
+  serializedVersion: 1
+  productId: 96402
+  packageName: Q Inventory System
+  packageVersion: 2.0.1
+  assetPath: Assets/Hawk Quan/Q Inventory System/Inventory Database/Editor/EditorInformation.asset
+  uploadId: 221379
