@@ -1,11 +1,10 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace SojaExiles
 
 {
-	public class BRGlassDoor : MonoBehaviour
+    public class BRGlassDoor : MonoBehaviour
 	{
 
 		public Animator openandclose;

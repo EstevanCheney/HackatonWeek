@@ -1,12 +1,11 @@
 ﻿using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 namespace SojaExiles
 
 {
 
-	public class Drawer_Pull_X : MonoBehaviour
+    public class Drawer_Pull_X : MonoBehaviour
 	{
 
 		public Animator pull_01;
