@@ -29,8 +29,6 @@ public class Inventory : MonoBehaviour
     [SerializeField]
     private Transform dropPoint;
 
-    public InspectObject inspectObject;
-
     [SerializeField]
     private FirstPersonController player;
     public static Inventory instance;

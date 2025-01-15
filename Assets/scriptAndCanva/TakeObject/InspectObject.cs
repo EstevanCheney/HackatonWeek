@@ -23,7 +23,7 @@ public class InspectObject : MonoBehaviour
             float v = verticalSpeed * Input.GetAxis("Mouse Y");
             actualObject.transform.Rotate(v, 0, h);
         }
-        if (Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape) && canRotate == true)
         {
             Destroy(actualObject);
             canRotate = false;

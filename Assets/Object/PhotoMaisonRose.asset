@@ -10,8 +10,8 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 9166b081c2c325d4397a0558008dc4a1, type: 3}
-  m_Name: Photo
+  m_Name: PhotoMaisonRose
   m_EditorClassIdentifier: 
-  name: Photo
+  name: Photo Maison Rose
   visual: {fileID: 21300010, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
-  prefab: {fileID: 4485613728015117714, guid: c2fa25f6de2ec3d4db3a5f05c022f566, type: 3}
+  prefab: {fileID: 2909292704436716163, guid: 0b5e476b04ed44e4cbe34ea293543d8b, type: 3}
