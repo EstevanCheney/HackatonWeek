@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using UnityEngine.UI;
 using System;
 using System.Diagnostics;
+using UnityEngine.InputSystem;
 
 public class Inventory : MonoBehaviour
 {
@@ -23,11 +24,21 @@ public class Inventory : MonoBehaviour
     private GameObject useButton;
 
     [SerializeField]
+    private Sprite emptySlotVisual;
+
+    [SerializeField]
+    private Transform dropPoint;
+
+    [SerializeField]
     private FirstPersonController player;
     public static Inventory instance;
     private ItemData itemCurrentlySelected;
 
     const int InventorySize = 12;
+    private void Awake()
+    {
+        instance = this;
+    }
     private void Start()
     {
         RefreshContent();
@@ -60,7 +71,10 @@ public class Inventory : MonoBehaviour
     {
         for (int i = 0; i < content.Count; i++)
         {
-            inventorySlotParent.GetChild(i).GetChild(0).GetComponent<Image>().sprite = content[i].visual;
+           Slot currentSlot = inventorySlotParent.GetChild(i).GetComponent<Slot>();
+
+            currentSlot.item = content[i];
+            currentSlot.itemVisual.sprite = content[i].visual;
         }
     }
 
@@ -87,6 +101,13 @@ public class Inventory : MonoBehaviour
 
     public void UseActionButton()
     {
+        GameObject instantiatedItem = Instantiate(itemCurrentlySelected.prefab);
+        instantiatedItem.transform.position = dropPoint.position;
+        content.Remove(itemCurrentlySelected);
+        RefreshContent();
         CloseActionPanel();
+        InventoryPanel.SetActive(false);
+        Cursor.lockState = CursorLockMode.Locked;
+        player.cameraCanMove = true;
     }
 }
