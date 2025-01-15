@@ -14,6 +14,7 @@ TagManager:
   - Weapon
   - Equipment
   - Enemy
+  - Inspect
   layers:
   - Default
   - TransparentFX

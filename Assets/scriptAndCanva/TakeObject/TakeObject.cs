@@ -15,6 +15,8 @@ public class TakeObject : MonoBehaviour
     private GameObject pickupText;
 
     [SerializeField]
+    private GameObject inspectionText;
+    [SerializeField]
     private LayerMask layerMask;
     void Update()
     {
@@ -31,8 +33,13 @@ public class TakeObject : MonoBehaviour
                     playerPickupBehaviour.DoPickup(hit.transform.gameObject.GetComponent<Item>());
                 }
             }
+            if(hit.transform.CompareTag("Inspect"))
+            {
+                inspectionText.SetActive(true);
+            }
         } else {
             pickupText.SetActive(false);
+            inspectionText.SetActive(false);
         }
     }
 }

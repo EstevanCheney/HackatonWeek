@@ -113,6 +113,13 @@ public class Inventory : MonoBehaviour
         {
             rotation.canRotate = true;
         }
+
+        FirstPersonController[] players = FindObjectsOfType<FirstPersonController>();
+
+        foreach (FirstPersonController camera in players)
+        {
+            camera.playerCanMove = false;
+        }
         Cursor.lockState = CursorLockMode.Locked;
     }
 }

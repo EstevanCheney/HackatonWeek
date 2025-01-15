@@ -15,8 +15,8 @@ GameObject:
   - component: {fileID: 5773294258283640535}
   - component: {fileID: -7795419419199976429}
   m_Layer: 6
-  m_Name: ObjectToTake
-  m_TagString: Item
+  m_Name: ObjectToTake Inspect
+  m_TagString: Inspect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

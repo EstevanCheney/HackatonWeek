@@ -31,6 +31,7 @@ public class InspectObject : MonoBehaviour
 
             foreach (FirstPersonController camera in players)
             {
+                camera.playerCanMove = true;
                 camera.cameraCanMove = true;
             }
         }
