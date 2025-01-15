@@ -18,7 +18,10 @@ public class ShootAction : MonoBehaviour
 
     public LayerMask layerMask;
 
+    public GameObject muzzleFlash;
+    public Transform muzzleFlashPosition;
 
+    public bool display;
     void Start()
     {
         fpsCam = GetComponentInParent<Camera>();
@@ -28,7 +31,16 @@ public class ShootAction : MonoBehaviour
     {
         if (Input.GetButtonDown("Fire1") && Time.time > nextFire)
         {
- 
+            HideObjectFromCamera[] IsDisplay = FindObjectsOfType<HideObjectFromCamera>();
+            foreach (HideObjectFromCamera IsDisplayz in IsDisplay)
+            {
+                display = IsDisplayz.Isdisplay;
+            }
+
+            if (display) {
+                GameObject Flash = Instantiate(muzzleFlash, muzzleFlashPosition);
+                Destroy(Flash, 0.1f);
+            }
             nextFire = Time.time + fireRate;
 
             print(nextFire);

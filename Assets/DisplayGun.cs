@@ -8,14 +8,14 @@ public class HideObjectFromCamera : MonoBehaviour
 
     private int originalCullingMask;
 
-    private bool Isdisplay;
+    public bool Isdisplay;
 
 
     void Start()
     {
         if (mainCamera == null || objectToHide == null)
         {
-            Debug.LogError("La caméra ou l'objet à masquer n'est pas assigné.");
+            Debug.LogError("La camï¿½ra ou l'objet ï¿½ masquer n'est pas assignï¿½.");
             return;
         }
 
