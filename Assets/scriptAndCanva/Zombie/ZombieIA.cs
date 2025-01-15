@@ -1,5 +1,7 @@
 using UnityEngine;
 using UnityEngine.AI;
+using System.Collections;
+using System.Collections.Generic;
 
 public class ZombieIA : MonoBehaviour
 {
@@ -10,15 +12,18 @@ public class ZombieIA : MonoBehaviour
 
     public GameObject _TargetLook;
 
-    int health = 100;
-    public void TakeDamage(int damage)
-    {
-        health -= damage;
-    }
+    //Maximum de points de vie
+    public int maxHitPoint = 5;
+
+    //Points de vie actuels
+    public int hitPoint = 0;
+
+
 
     // Start is called before the first frame update
     void Start()
     {
+        hitPoint = maxHitPoint;
         _agent = GetComponent<NavMeshAgent>();
         _animator = GetComponent<Animator>();
 
@@ -38,7 +43,7 @@ public class ZombieIA : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (_Target != null)
+        if (_Target != null && _animator.GetBool("Dead") == false)
         {
             // Définir la destination du zombie
             _agent.SetDestination(_Target.transform.position);
@@ -56,8 +61,32 @@ public class ZombieIA : MonoBehaviour
             }
         }
 
-        _TargetLook.transform.LookAt(_Target.transform);
+        if (_TargetLook != null && _animator.GetBool("Dead") == false)
+        {
+            _TargetLook.transform.LookAt(_Target.transform);
 
-        transform.rotation= Quaternion.Euler(0f,_TargetLook.transform.eulerAngles.y,0f);
+            transform.rotation = Quaternion.Euler(0f, _TargetLook.transform.eulerAngles.y, 0f);
+        }
+    }
+
+    //Permet de recevoir des dommages
+    public void GetDamage(int damage)
+    {
+        //Applique les dommages aux points de vies actuels
+        hitPoint -= damage;
+
+        //Si les point de vie sont inférieurs à 1 = Supprime l'objet
+        if (hitPoint < 1)
+        {
+            _animator = GetComponentInChildren<Animator>();
+            if (_animator != null)
+            {
+                _animator.SetBool("Dead", true);
+
+                _agent.SetDestination(_agent.transform.position);
+            }
+
+            //Destroy(gameObject);
+        }
     }
 }
