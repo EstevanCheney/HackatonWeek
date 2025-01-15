@@ -1,0 +1,1012 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1032588388880629927
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3675907794504586491}
+  - component: {fileID: 7142024720712506392}
+  - component: {fileID: 2278300720102299563}
+  - component: {fileID: 1633106375864904457}
+  m_Layer: 0
+  m_Name: BoredNarrationsList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3675907794504586491
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032588388880629927}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7142024720712506392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032588388880629927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e01524c299bc6744aea5de0ff276f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whenEndReached: 4
+  loopNarrations: 1
+  shuffle: 0
+  narrations:
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 056ba8cb968701748ad9fd0dfe518909, type: 3}
+      text: Well, go on.  We're not going to get anywhere by putsing around.
+      duration: 4.231837
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 3d1d79c591cd29a4c9819c64549f37ae, type: 3}
+      text: Seriously.  Don't you want to know what happens in Algin?  It's pretty
+        great.
+      duration: 6.2693877
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 84be612199d61c745a03cbcd5a97e3a9, type: 3}
+      text: I'm getting bored...
+      duration: 1.6718367
+      drawAudio: 1
+      lastCalculatedHeight: 108
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+--- !u!114 &2278300720102299563
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032588388880629927}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c65e7f97fa1546844a2448671e4d4116, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 1
+  narrationList: {fileID: 7142024720712506392}
+  theNarration:
+    busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases: []
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 0
+  OnFailure: 4
+  OnSuccess: 4
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  time: 30
+--- !u!114 &1633106375864904457
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1032588388880629927}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1cab4bc8f002404bb87a147fc9bdf89, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  head: {fileID: 649646189023381965}
+  links:
+  - unlockOn: 1
+    toUnlock: {fileID: 2278300720102299563}
+--- !u!1 &1458351317629359687
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 500225477761545983}
+  - component: {fileID: 649646189023381965}
+  m_Layer: 0
+  m_Name: NearGateNarration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &500225477761545983
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458351317629359687}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 56.99, y: -1.660588, z: 9.9}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &649646189023381965
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1458351317629359687}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b64140504f9afa49890af388446118e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 8300000, guid: ff10f615b6d962e438af3619c6db2f6e, type: 3}
+    phrases:
+    - audio: {fileID: 8300000, guid: 3992a111e79678d41a2c0f422b021db7, type: 3}
+      text: Of course, nothing can ever be easy.  Why can't it ever be easy?
+      duration: 6.765714
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    - audio: {fileID: 8300000, guid: 44ebf3e22da7ca64d95fd4782dfe41a2, type: 3}
+      text: At least it seems straightforward enough. See 8 key holes, infer 8 keys. 
+        You know.  Just in case you hadn't quite gotten there yet.
+      duration: 9.351837
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 2
+  OnSuccess: 2
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  is2D: 0
+  triggeredBy: {fileID: 0}
+  proximity: 12.09
+  timeInProximityToTrigger: 0.01
+  timeMustBeConsecutive: 0
+--- !u!1 &2994837332973353752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2559218405716786282}
+  - component: {fileID: 8133138764861947685}
+  m_Layer: 0
+  m_Name: UnlockedNarration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2559218405716786282
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994837332973353752}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8133138764861947685
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2994837332973353752}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 50e40ea65572bfc428d6c26172790ffd, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 2
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 697b94439b27b5d468b71114308f1c60, type: 3}
+      text: Yes!  It's about time!  I was getting a little worried about you, but
+        turns out you are capable of wandering around and counting to 8.
+      duration: 11.1804085
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+--- !u!1 &4892786642927545491
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4959014804690079190}
+  - component: {fileID: 3150478410882925308}
+  m_Layer: 0
+  m_Name: LevelBeginNarration
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4959014804690079190
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892786642927545491}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 139.42, y: -2.89, z: 48.46}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3150478410882925308
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4892786642927545491}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b64140504f9afa49890af388446118e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 0
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: 4148d94d2a87b194094fca43e9232271, type: 3}
+    phrases:
+    - audio: {fileID: 0}
+      text: At last, our hero was nearing the city of Algin.  It was there the old
+        woman had insisted answers were to be had.
+      duration: 8.594286
+      drawAudio: 0
+      lastCalculatedHeight: 54
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  is2D: 0
+  triggeredBy: {fileID: 0}
+  proximity: 7.69
+  timeInProximityToTrigger: 0.1
+  timeMustBeConsecutive: 0
+--- !u!1 &5411510923212722628
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4423007548036418408}
+  - component: {fileID: 5543908110685757669}
+  m_Layer: 0
+  m_Name: FarSideOfGate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4423007548036418408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411510923212722628}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6, y: 0, z: 12.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5543908110685757669
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5411510923212722628}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b64140504f9afa49890af388446118e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 1
+  narrationList: {fileID: 7126500939670492758}
+  theNarration:
+    busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases: []
+    LoopAudioForDuration: 0
+    expanded: 1
+    lastCalculatedHeight: 127
+    useSmartSubs: 0
+  OnFailure: 2
+  OnSuccess: 4
+  ResetCooldown: 15
+  delayPlayingBy: 0
+  is2D: 0
+  triggeredBy: {fileID: 0}
+  proximity: 32.5
+  timeInProximityToTrigger: 0
+  timeMustBeConsecutive: 0
+--- !u!1 &5484001275323727791
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2099120698509872304}
+  m_Layer: 0
+  m_Name: StandaloneNarrations
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2099120698509872304
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5484001275323727791}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.4501381, y: 3.0342088, z: 10.193581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4959014804690079190}
+  - {fileID: 7336214720751429388}
+  - {fileID: 500225477761545983}
+  - {fileID: 1746918671330893101}
+  - {fileID: 2559218405716786282}
+  - {fileID: 3675907794504586491}
+  - {fileID: 4423007548036418408}
+  - {fileID: 2613080111505971489}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &6372050051025520191
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4837239633290031573}
+  - component: {fileID: 8897312278840014862}
+  - component: {fileID: 7101201876958012198}
+  - component: {fileID: 970038161204901817}
+  - component: {fileID: 8642811985603477566}
+  m_Layer: 0
+  m_Name: Triggers
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4837239633290031573
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372050051025520191}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1746918671330893101}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8897312278840014862
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372050051025520191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64edb199807a0f4f94361f1483bcd4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 2
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: 2c03eeb2bb621914f9f9090ed50861ff, type: 3}
+    phrases:
+    - audio: {fileID: 0}
+      text: One down, hurrah!
+      duration: 3.5918367
+      drawAudio: 0
+      lastCalculatedHeight: 54
+      move: 0
+    - audio: {fileID: 0}
+      text: This is going to take a while, isn't it.
+      duration: 3.5918367
+      drawAudio: 0
+      lastCalculatedHeight: 54
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  counter: {fileID: 5285400674569480794}
+  targetValue: 1
+  relation: 2
+--- !u!114 &7101201876958012198
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372050051025520191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64edb199807a0f4f94361f1483bcd4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 2
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: 45dbb04f415cd7d41977516640fc05b1, type: 3}
+    phrases:
+    - audio: {fileID: 0}
+      text: Halfway there!  I bet your mother would be VERY proud.
+      duration: 4.231837
+      drawAudio: 0
+      lastCalculatedHeight: 54
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  counter: {fileID: 5285400674569480794}
+  targetValue: 4
+  relation: 2
+--- !u!114 &970038161204901817
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372050051025520191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64edb199807a0f4f94361f1483bcd4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 2
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: c9f09d024aee8f247847cd9f548739a3, type: 3}
+    phrases:
+    - audio: {fileID: 0}
+      text: Okay, just one left.
+      duration: 3.2914286
+      drawAudio: 0
+      lastCalculatedHeight: 54
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  counter: {fileID: 5285400674569480794}
+  targetValue: 7
+  relation: 2
+--- !u!114 &8642811985603477566
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6372050051025520191}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c64edb199807a0f4f94361f1483bcd4c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 2
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: 93c13516f717bf3489deae13721d4a75, type: 3}
+    phrases:
+    - audio: {fileID: 0}
+      text: Finally!  Alright, back to the gate now.  C'mon, hurry up.
+      duration: 4.1534696
+      drawAudio: 0
+      lastCalculatedHeight: 54
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 0
+  OnSuccess: 0
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  counter: {fileID: 5285400674569480794}
+  targetValue: 8
+  relation: 2
+--- !u!1 &6471955355816255632
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1746918671330893101}
+  - component: {fileID: 8729322887840251582}
+  - component: {fileID: 5285400674569480794}
+  m_Layer: 0
+  m_Name: keysNarrationList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1746918671330893101
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471955355816255632}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 31.210138, y: -1.660588, z: -6.663581}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 4837239633290031573}
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8729322887840251582
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471955355816255632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e01524c299bc6744aea5de0ff276f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whenEndReached: 0
+  loopNarrations: 0
+  shuffle: 0
+  narrations:
+  - busyBehavior: 2
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: 2c03eeb2bb621914f9f9090ed50861ff, type: 3}
+    phrases:
+    - audio: {fileID: 8300000, guid: 2c03eeb2bb621914f9f9090ed50861ff, type: 3}
+      text: One down, hurrah!
+      duration: 3
+      drawAudio: 0
+      lastCalculatedHeight: 72
+      move: 0
+    - audio: {fileID: 8300000, guid: 2c03eeb2bb621914f9f9090ed50861ff, type: 3}
+      text: This is going to take a while, isn't it.
+      duration: 4.19
+      drawAudio: 0
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 1
+    lastCalculatedHeight: 268
+    useSmartSubs: 0
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 0}
+      text: 
+      duration: 0
+      drawAudio: 1
+      lastCalculatedHeight: 90
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 1
+    lastCalculatedHeight: 178
+    useSmartSubs: 0
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 0}
+      text: 
+      duration: 0
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 0
+  - busyBehavior: 0
+    singleAudio_MultiSub: 1
+    mainAudio: {fileID: 8300000, guid: 45dbb04f415cd7d41977516640fc05b1, type: 3}
+    phrases:
+    - audio: {fileID: 0}
+      text: Half way there. I bet your mother is very proud.
+      duration: 4.231837
+      drawAudio: 0
+      lastCalculatedHeight: 36
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 0}
+      text: 
+      duration: 0
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 0
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 0}
+      text: 
+      duration: 0
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 0
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: c9f09d024aee8f247847cd9f548739a3, type: 3}
+      text: Okay, just one left.
+      duration: 3.2914286
+      drawAudio: 1
+      lastCalculatedHeight: 108
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 1
+    lastCalculatedHeight: 196
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 93c13516f717bf3489deae13721d4a75, type: 3}
+      text: Finally.  Alright, back to the gate now. C'mon. Hurry up.
+      duration: 4.1534696
+      drawAudio: 1
+      lastCalculatedHeight: 108
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 1
+    lastCalculatedHeight: 196
+    useSmartSubs: 1
+--- !u!114 &5285400674569480794
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6471955355816255632}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 47392e4331db08447a8330030f4c4834, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  initialCount: 0
+--- !u!1 &8251100428182418852
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7336214720751429388}
+  - component: {fileID: 1620380432408197077}
+  m_Layer: 0
+  m_Name: GateInsight
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7336214720751429388
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8251100428182418852}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 109.49, y: -1.660588, z: 13.11}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1620380432408197077
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8251100428182418852}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5b64140504f9afa49890af388446118e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  UseNarrationList: 0
+  narrationList: {fileID: 0}
+  theNarration:
+    busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 8300000, guid: ff10f615b6d962e438af3619c6db2f6e, type: 3}
+    phrases:
+    - audio: {fileID: 8300000, guid: 4fc7a11a167f4704499bd0044fc3f1f3, type: 3}
+      text: Well, that's ominous.  The gates to Algin are never closed...
+      duration: 4.3363266
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  OnFailure: 3
+  OnSuccess: 3
+  ResetCooldown: 0
+  delayPlayingBy: 0
+  is2D: 0
+  triggeredBy: {fileID: 0}
+  proximity: 8.12
+  timeInProximityToTrigger: 0.01
+  timeMustBeConsecutive: 0
+--- !u!1 &8424593658766405874
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2613080111505971489}
+  - component: {fileID: 7126500939670492758}
+  m_Layer: 0
+  m_Name: farsideList
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2613080111505971489
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424593658766405874}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 3.6, y: 0, z: 12.299999}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 2099120698509872304}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7126500939670492758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8424593658766405874}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2e01524c299bc6744aea5de0ff276f72, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  whenEndReached: 0
+  loopNarrations: 0
+  shuffle: 0
+  narrations:
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: a06f44447d75b7d47a3b494e5481189d, type: 3}
+      text: Algin... the city, and it's people, they're... they're gone.  How can
+        this be?
+      duration: 6.217143
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 0bb6bb1ff36b63b4c91ed0d6c956d038, type: 3}
+      text: Ha, just kidding!  Well, demo's over, folks.  Time to go home.
+      duration: 4.3363266
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 95d21e5d0cbe31b4e99a8a7269948129, type: 3}
+      text: Okay, well, you can stick around if you want, but I'm out of here.
+      duration: 3.9444897
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 0cba3bb9ae7521d48bb2466af380867e, type: 3}
+      text: Okay, I didn't leave.  But seriously, there's nothing left to do here.
+      duration: 5.5902042
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1
+  - busyBehavior: 0
+    singleAudio_MultiSub: 0
+    mainAudio: {fileID: 0}
+    phrases:
+    - audio: {fileID: 8300000, guid: 5613a89b47f72f145bb178a9ed0a6a51, type: 3}
+      text: Okay, I'm leaving for real this time.  You should, too. Aren't you supposed
+        to be making a game or something?
+      duration: 7.47102
+      drawAudio: 1
+      lastCalculatedHeight: 72
+      move: 0
+    LoopAudioForDuration: 0
+    expanded: 0
+    lastCalculatedHeight: 16
+    useSmartSubs: 1

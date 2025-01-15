@@ -9,6 +9,10 @@ public class NPCInteraction : MonoBehaviour
     public GameObject dialogueUI;
     public GameObject player;
     private bool isPlayerNearby = false;
+    private bool stopDialogue = false;
+
+     private Vector3 originalPosition;
+     private Quaternion originalRotation;
     private FirstPersonController playerMovement;
 
         private void Start()
@@ -18,11 +22,24 @@ public class NPCInteraction : MonoBehaviour
             playerMovement = player.GetComponent<FirstPersonController>();
         }
     }
+
+    private void Update()
+    {
+        if (Input.GetKeyDown(KeyCode.Space) && isPlayerNearby == true && stopDialogue == false) {
+        stopDialogue = true;
+        EnablePlayerMovement();
+        StopZoom();
+        mainCamera.transform.position = originalPosition;
+        mainCamera.transform.rotation = originalRotation;
+        }
+
+    }
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
         {
             isPlayerNearby = true;
+            if (stopDialogue == false)
             StartZoomAndDialogue();
         }
     }
@@ -53,6 +70,7 @@ public class NPCInteraction : MonoBehaviour
     {
         if (playerMovement != null)
         {
+            
             playerMovement.enabled = false;
         }
     }
@@ -75,8 +93,8 @@ public class NPCInteraction : MonoBehaviour
 
     private IEnumerator ZoomToNPC()
     {
-        Vector3 originalPosition = mainCamera.transform.position;
-        Quaternion originalRotation = mainCamera.transform.rotation;
+        originalPosition = mainCamera.transform.position;
+        originalRotation = mainCamera.transform.rotation;
 
         Vector3 targetPosition = focusPoint.position - focusPoint.forward * 1f;
         Quaternion targetRotation = Quaternion.LookRotation(focusPoint.position - mainCamera.transform.position);
