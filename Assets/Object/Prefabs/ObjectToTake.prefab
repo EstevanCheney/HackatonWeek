@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4306533699265804996}
   - component: {fileID: 792684829026370760}
   - component: {fileID: 5773294258283640535}
+  - component: {fileID: -7795419419199976429}
   m_Layer: 6
   m_Name: ObjectToTake
   m_TagString: Item
@@ -124,3 +125,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   itemData: {fileID: 11400000, guid: f84361206aef19347b46eca4ee03dd93, type: 2}
+--- !u!114 &-7795419419199976429
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4485613728015117714}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 21191d4fb0dae7047918d93cdf6b856f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  actualObject: {fileID: 4485613728015117714}
+  player: {fileID: 8654714353993658258, guid: b8c8fff81d1e16040bbc88a3f5366b34, type: 3}
+  inventory: {fileID: 0}
+  canRotate: 0

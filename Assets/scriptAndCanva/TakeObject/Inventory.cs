@@ -29,6 +29,8 @@ public class Inventory : MonoBehaviour
     [SerializeField]
     private Transform dropPoint;
 
+    public InspectObject inspectObject;
+
     [SerializeField]
     private FirstPersonController player;
     public static Inventory instance;
@@ -103,11 +105,14 @@ public class Inventory : MonoBehaviour
     {
         GameObject instantiatedItem = Instantiate(itemCurrentlySelected.prefab);
         instantiatedItem.transform.position = dropPoint.position;
-        content.Remove(itemCurrentlySelected);
-        RefreshContent();
         CloseActionPanel();
         InventoryPanel.SetActive(false);
+        InspectObject[] rotations = FindObjectsOfType<InspectObject>();
+
+        foreach (InspectObject rotation in rotations)
+        {
+            rotation.canRotate = true;
+        }
         Cursor.lockState = CursorLockMode.Locked;
-        player.cameraCanMove = true;
     }
 }
