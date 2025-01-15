@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: "PhotoCath\xE9drale"
   m_EditorClassIdentifier: 
   name: "Photo Cath\xE9drale"
-  visual: {fileID: 21300010, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
-  prefab: {fileID: 5633594996289093633, guid: cdfa34e731320734d94f6a7951722c25, type: 3}
+  visual: {fileID: 21300000, guid: 8c786160f9f81394ca3377b605cad6d9, type: 3}
+  prefab: {fileID: 5633594996289093633, guid: 3bca52a87a28be14c92022a4890c90c1, type: 3}
