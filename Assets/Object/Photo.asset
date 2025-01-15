@@ -13,5 +13,5 @@ MonoBehaviour:
   m_Name: Photo
   m_EditorClassIdentifier: 
   name: Photo
-  prefab: {fileID: 4485613728015117714, guid: dce6e4b7a38ce5f4a8b0ff58c73ac344, type: 3}
   visual: {fileID: 21300010, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
+  prefab: {fileID: 4485613728015117714, guid: c2fa25f6de2ec3d4db3a5f05c022f566, type: 3}
