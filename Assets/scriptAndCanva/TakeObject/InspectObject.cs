@@ -11,6 +11,9 @@ public class InspectObject : MonoBehaviour
     [SerializeField]
     private FirstPersonController player;
 
+    [SerializeField]
+    private GameObject text;
+
     public bool canRotate = false;
     private float horizontalSpeed = 2;
     private float verticalSpeed = 2;
@@ -26,6 +29,7 @@ public class InspectObject : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape) && canRotate == true)
         {
             Destroy(actualObject);
+            text.SetActive(false);
             canRotate = false;
             FirstPersonController[] players = FindObjectsOfType<FirstPersonController>();
 

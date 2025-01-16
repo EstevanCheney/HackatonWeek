@@ -24,6 +24,21 @@ public class Inventory : MonoBehaviour
     private GameObject useButton;
 
     [SerializeField]
+    private GameObject textCathedrale;
+
+    [SerializeField]
+    private GameObject textGare;
+
+    [SerializeField]
+    private GameObject textTour;
+
+    [SerializeField]
+    private GameObject textMaisonRose;
+
+    [SerializeField]
+    private GameObject textVille;
+
+    [SerializeField]
     private Sprite emptySlotVisual;
 
     [SerializeField]
@@ -102,6 +117,49 @@ public class Inventory : MonoBehaviour
     public void UseActionButton()
     {
         GameObject instantiatedItem = Instantiate(itemCurrentlySelected.prefab);
+
+        UnityEngine.Debug.Log(instantiatedItem.name);
+        if (instantiatedItem.name == "ImageCatédral 1(Clone)")
+        {
+            textCathedrale.SetActive(true);
+        }
+        else
+        {
+            textCathedrale.SetActive(false);
+        }
+        if (instantiatedItem.name == "ImageGare 1(Clone)")
+        {
+            textGare.SetActive(true);
+        }
+        else
+        {
+            textGare.SetActive(false);
+        }
+        if (instantiatedItem.name == "ImageMaisonRose 1(Clone)")
+        {
+            textMaisonRose.SetActive(true);
+        }
+        else
+        {
+            textMaisonRose.SetActive(false);
+        }
+        if (instantiatedItem.name == "ImageTour 1(Clone)")
+        {
+            textTour.SetActive(true);
+        }
+        else
+        {
+            textTour.SetActive(false);
+        }
+        if (instantiatedItem.name == "ImageVille 1(Clone)")
+        {
+            textVille.SetActive(true);
+        }
+        else
+        {
+            textVille.SetActive(false);
+        }
+
         instantiatedItem.transform.position = dropPoint.position;
         CloseActionPanel();
         InventoryPanel.SetActive(false);
