@@ -129,7 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   actualObject: {fileID: 330818180393410642, guid: ce751457f8052e94fae50fa21191aa00, type: 3}
-  player: {fileID: 0}
+  player: {fileID: 6412946784857067778, guid: fa74d260e52f72f47b552aac2eaf2216, type: 3}
   text: {fileID: 5093632059833956523, guid: 9ca1af3422a62124e8a37036442e70bf, type: 3}
   canRotate: 0
 --- !u!1 &3956998699743732936

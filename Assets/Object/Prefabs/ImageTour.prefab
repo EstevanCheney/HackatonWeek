@@ -128,8 +128,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21191d4fb0dae7047918d93cdf6b856f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actualObject: {fileID: 5210584079674056324, guid: 4f3518b77d48df240abff77b25f147df, type: 3}
-  player: {fileID: 0}
+  actualObject: {fileID: 605937329930442430, guid: a0f94a54b45c57d49a991e0f201cc045, type: 3}
+  player: {fileID: 6412946784857067778, guid: fa74d260e52f72f47b552aac2eaf2216, type: 3}
   text: {fileID: 4747878230810874165, guid: d0a8e438a3f77754da1d236370c53201, type: 3}
   canRotate: 0
 --- !u!1 &5780376300687092535

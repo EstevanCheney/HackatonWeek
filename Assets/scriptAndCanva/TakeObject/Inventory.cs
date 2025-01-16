@@ -118,7 +118,7 @@ public class Inventory : MonoBehaviour
     {
         GameObject instantiatedItem = Instantiate(itemCurrentlySelected.prefab);
 
-        if (instantiatedItem.name == "ImageCatédral 1(Clone)")
+        if (instantiatedItem.name == "ImageCatÃ©dral 1(Clone)")
         {
             textCathedrale.SetActive(true);
         }
