@@ -6,6 +6,7 @@ public class HealthBar : MonoBehaviour
 {
     public float health = 100f;
     public float maxHealth = 100f;
+    public DeathMen DeathMenu;
 
     public Image healthBarImage;
     public TextMeshProUGUI interactionCounter;
@@ -17,6 +18,11 @@ public class HealthBar : MonoBehaviour
         {
             health = 100f;
             interactionCounter.text = "0/1";
+        }
+        if (health <= 0)
+        {
+            DeathMenu.gameObject.SetActive(true);
+            DeathMenu.ShowDeathMenu();
         }
     }
 

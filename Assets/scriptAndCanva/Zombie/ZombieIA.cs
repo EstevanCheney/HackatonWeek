@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.AI;
 using System.Collections;
 using System.Collections.Generic;
+using Narrate;
 
 public class ZombieIA : MonoBehaviour
 {
@@ -63,17 +64,20 @@ public class ZombieIA : MonoBehaviour
 
                 if (_agent.velocity.x == 0 && _agent.velocity.y == 0 && _agent.velocity.z == 0)
                 {
-                    _animator.SetBool("walk", false);
-
-                    if (Time.time > nextDamage)
+                    if (distanceToTarget < 2f)
                     {
-                        HealthBar[] health = FindObjectsOfType<HealthBar>();
+                        _animator.SetBool("walk", false);
 
-                        foreach (HealthBar healthPlayer in health)
+                        if (Time.time > nextDamage)
                         {
-                            healthPlayer.Damage(10f);
+                            HealthBar[] health = FindObjectsOfType<HealthBar>();
+
+                            foreach (HealthBar healthPlayer in health)
+                            {
+                                healthPlayer.Damage(10f);
+                            }
+                            nextDamage = Time.time + 0.5f;
                         }
-                        nextDamage = Time.time + 0.5f;
                     }
                 }
                 else
