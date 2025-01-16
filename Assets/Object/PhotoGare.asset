@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Photo Gare
   visual: {fileID: 21300010, guid: 9c2c642c47b2fc344ab143e21aedaca9, type: 3}
-  prefab: {fileID: 4065767807624963295, guid: 4387f8965b3eb5f46b1b3a9b2423ff6b, type: 3}
+  prefab: {fileID: 6764226034574847106, guid: 4387f8965b3eb5f46b1b3a9b2423ff6b, type: 3}
+  text: {fileID: 8580264834909979150, guid: 59791e87e6f446e48a0236bdf079ccdf, type: 3}

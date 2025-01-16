@@ -14,4 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Photo Maison Rose
   visual: {fileID: 21300000, guid: c6cb85ce0b9dbdd41bd0cf25aec1b93e, type: 3}
-  prefab: {fileID: 6743598418656388803, guid: d5cacf10041b0bc4d8c68b9f643ead27, type: 3}
+  prefab: {fileID: 3274744819200374769, guid: d5cacf10041b0bc4d8c68b9f643ead27, type: 3}
+  text: {fileID: 7748082379121706445, guid: 0a7b7f7911bbfc44392ffc4d9addab2d, type: 3}

@@ -2,6 +2,7 @@ using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
 using static UnityEditor.FilePathAttribute;
+using System;
 
 public class InspectObject : MonoBehaviour
 {
@@ -28,8 +29,8 @@ public class InspectObject : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Escape) && canRotate == true)
         {
-            Destroy(actualObject);
             text.SetActive(false);
+            Destroy(actualObject);
             canRotate = false;
             FirstPersonController[] players = FindObjectsOfType<FirstPersonController>();
 

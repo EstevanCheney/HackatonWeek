@@ -118,7 +118,6 @@ public class Inventory : MonoBehaviour
     {
         GameObject instantiatedItem = Instantiate(itemCurrentlySelected.prefab);
 
-        UnityEngine.Debug.Log(instantiatedItem.name);
         if (instantiatedItem.name == "ImageCatédral 1(Clone)")
         {
             textCathedrale.SetActive(true);

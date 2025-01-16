@@ -128,8 +128,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21191d4fb0dae7047918d93cdf6b856f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actualObject: {fileID: 2909292704436716163, guid: d5cacf10041b0bc4d8c68b9f643ead27, type: 3}
+  actualObject: {fileID: 3274744819200374769, guid: d5cacf10041b0bc4d8c68b9f643ead27, type: 3}
   player: {fileID: 0}
+  text: {fileID: 7748082379121706445, guid: 0a7b7f7911bbfc44392ffc4d9addab2d, type: 3}
   canRotate: 0
 --- !u!1 &3535172593827899910
 GameObject:
