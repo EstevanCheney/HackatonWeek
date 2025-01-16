@@ -19,6 +19,8 @@ public class ZombieIA : MonoBehaviour
     public bool CanShoot;
 
     public float maxDistance = 10f;
+
+    private float nextDamage;
     void Start()
     {
         hitPoint = maxHitPoint;
@@ -51,6 +53,7 @@ public class ZombieIA : MonoBehaviour
             {
                 _agent.SetDestination(_agent.transform.position);
                 _animator.SetBool("Nomoove", true);
+                return;
             }
             else
             {
@@ -61,6 +64,17 @@ public class ZombieIA : MonoBehaviour
                 if (_agent.velocity.x == 0 && _agent.velocity.y == 0 && _agent.velocity.z == 0)
                 {
                     _animator.SetBool("walk", false);
+
+                    if (Time.time > nextDamage)
+                    {
+                        HealthBar[] health = FindObjectsOfType<HealthBar>();
+
+                        foreach (HealthBar healthPlayer in health)
+                        {
+                            healthPlayer.Damage(10f);
+                        }
+                        nextDamage = Time.time + 0.5f;
+                    }
                 }
                 else
                 {

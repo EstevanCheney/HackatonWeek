@@ -4,7 +4,7 @@ using TMPro;
 
 public class HealthBar : MonoBehaviour
 {
-    public float health = 75f;
+    public float health = 100f;
     public float maxHealth = 100f;
 
     public Image healthBarImage;
