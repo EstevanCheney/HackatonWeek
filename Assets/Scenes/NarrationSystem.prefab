@@ -323,6 +323,7 @@ MonoBehaviour:
   characterController: {fileID: 0}
   defaultPhraseDuration: 3
   isPlaying: 0
+  textPress: {fileID: 0}
 --- !u!1 &6753976047435128588
 GameObject:
   m_ObjectHideFlags: 0
