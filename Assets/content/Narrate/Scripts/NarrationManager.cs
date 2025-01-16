@@ -11,6 +11,7 @@ using System.Collections.Generic;
 //////////////////////////////////////////////////////////////////////////////
 
 namespace Narrate {
+
     public delegate void InteractionEventHandler(object sender, System.EventArgs e);
     public class NarrationManager : MonoBehaviour {
         public event InteractionEventHandler InteractPressed;
@@ -41,6 +42,8 @@ namespace Narrate {
         public static bool alwaysSingleAudio;
 
 #endif
+        [SerializeField]
+        public GameObject textPress;
 
         /// <summary>
         /// Sets up the NarrationManager's singleton design pattern - only one instance of
