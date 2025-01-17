@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Photo Ville
   visual: {fileID: 21300000, guid: 656f0451eda69c249a414ce8691cd7da, type: 3}
-  prefab: {fileID: 3311394609713340368, guid: 0a760a8f28853e54b9ce6020d31c0802, type: 3}
+  prefab: {fileID: 3311394609713340368, guid: 33c76bbb636035245a0853bdba25fcae, type: 3}
