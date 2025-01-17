@@ -1,7 +1,6 @@
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-using static UnityEditor.FilePathAttribute;
 using System;
 
 public class InspectObject : MonoBehaviour

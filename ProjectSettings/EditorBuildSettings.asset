@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Unity Technologies/LowpolyCharacterRio/Scenes/DemoScene.unity
     guid: 99c9720ab356a0642a771bea13969a05
   - enabled: 1
+    path: Assets/Scenes/Menu.unity
+    guid: ff282ed1195a50a429e71f5dbdb14667
+  - enabled: 1
     path: Assets/Scenes/Bunker.unity
     guid: 87e4e3802f3388046960106592adde7b
   - enabled: 1
     path: Assets/Scenes/map_principal.unity
     guid: d74d69defd0124e47880f8f1abef99d8
-  - enabled: 1
-    path: Assets/Scenes/Menu.unity
-    guid: ff282ed1195a50a429e71f5dbdb14667
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
   m_UseUCBPForAssetBundles: 0

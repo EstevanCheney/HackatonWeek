@@ -2,7 +2,6 @@ using NUnit.Framework;
 using UnityEngine;
 using UnityEngine.InputSystem;
 using System.Collections;
-using static UnityEditor.FilePathAttribute;
 using System;
 using UnityEngine.Playables;
 
