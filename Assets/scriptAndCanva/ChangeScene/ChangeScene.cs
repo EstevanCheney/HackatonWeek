@@ -13,20 +13,20 @@ public class ChangeScene : MonoBehaviour
     [SerializeField]
     private VerifAllPhotos end;
 
-    private bool isPlayerIsIn;
+    private bool isPlayerIsIn = false;
 
     private void Update()
     {
         OnTriggerEnter(HitBox);
         OnTriggerExit(HitBox);
-        if (isPlayerIsIn && Input.GetKeyDown(KeyCode.F) && end.StartEnd)
+        if (isPlayerIsIn && Input.GetKeyDown(KeyCode.F))
         {
             SceneManager.LoadScene("Bunker final");
         }
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && end.StartEnd)
+        if (other.CompareTag("Player"))
         {
             isPlayerIsIn = true;
             interactionMessage.SetActive(true);
@@ -35,7 +35,7 @@ public class ChangeScene : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && end.StartEnd)
+        if (other.CompareTag("Player"))
         {
             isPlayerIsIn = false;
             interactionMessage.SetActive(false);

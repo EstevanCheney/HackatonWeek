@@ -2996,9 +2996,81 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 684971596483445162, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 256.335
+      objectReference: {fileID: 0}
+    - target: {fileID: 684971596483445162, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 64.084
+      objectReference: {fileID: 0}
+    - target: {fileID: 684971596483445162, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -804
+      objectReference: {fileID: 0}
+    - target: {fileID: 684971596483445162, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 412
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600696525333905096, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 440.703
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600696525333905096, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 110.176
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600696525333905096, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -44
+      objectReference: {fileID: 0}
+    - target: {fileID: 1600696525333905096, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -311
+      objectReference: {fileID: 0}
     - target: {fileID: 5400515515986352105, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
       propertyPath: m_Name
       value: Canvas
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139789198060609315, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_fontSize
+      value: 44.75
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139789198060609315, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_margin.z
+      value: -24.875038
+      objectReference: {fileID: 0}
+    - target: {fileID: 6139789198060609315, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317593456587706174, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 662.737
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317593456587706174, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 53.414
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317593456587706174, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 507.72
+      objectReference: {fileID: 0}
+    - target: {fileID: 6317593456587706174, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: -392.79
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879344514847676480, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_UiScaleMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879344514847676480, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_ReferenceResolution.x
+      value: 1920
+      objectReference: {fileID: 0}
+    - target: {fileID: 6879344514847676480, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: m_ReferenceResolution.y
+      value: 1080
       objectReference: {fileID: 0}
     - target: {fileID: 7202500662602761079, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
       propertyPath: m_Pivot.x
@@ -8138,8 +8210,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 9.521598, y: -107}
-  m_SizeDelta: {x: 299.0432, y: 50}
+  m_AnchoredPosition: {x: 29, y: -311}
+  m_SizeDelta: {x: 524.465, y: 87.691}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

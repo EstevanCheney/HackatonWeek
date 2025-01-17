@@ -17,16 +17,24 @@ public class FinalScreen : MonoBehaviour
     private void Update()
     {
         OnTriggerEnter(HitBox);
+        OnTriggerExit(HitBox);
     }
 
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && end.StartEnd == true)
+        if (other.CompareTag("Tank"))
         {
             isTankIsIn = true;
-            Debug.Log(isTankIsIn);
             FinalSreen.SetActive(true);
         }
     }
 
+    void OnTriggerExit(Collider other)
+    {
+        if (other.CompareTag("Tank"))
+        {
+            isTankIsIn = false;
+            FinalSreen.SetActive(false);
+        }
+    }
 }
