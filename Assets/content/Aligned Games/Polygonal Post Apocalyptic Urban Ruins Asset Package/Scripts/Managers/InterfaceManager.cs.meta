@@ -14,5 +14,6 @@ AssetOrigin:
   productId: 256133
   packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
   packageVersion: 1.0
-  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Scripts/Managers/InterfaceManager.cs
+  assetPath: Assets/content/Aligned Games/Polygonal Post Apocalyptic Urban Ruins
+    Asset Package/Scripts/Managers/InterfaceManager.cs
   uploadId: 600746

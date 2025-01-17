@@ -12,5 +12,6 @@ AssetOrigin:
   productId: 256133
   packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
   packageVersion: 1.0
-  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Skyboxes/DefaultDay/DefaultDay.mat
+  assetPath: Assets/content/Aligned Games/Polygonal Post Apocalyptic Urban Ruins
+    Asset Package/Skyboxes/DefaultDay/DefaultDay.mat
   uploadId: 600746

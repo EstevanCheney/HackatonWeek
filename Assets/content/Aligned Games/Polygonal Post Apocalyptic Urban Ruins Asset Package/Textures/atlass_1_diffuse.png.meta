@@ -142,5 +142,6 @@ AssetOrigin:
   productId: 256133
   packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
   packageVersion: 1.0
-  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Textures/atlass_1_diffuse.png
+  assetPath: Assets/content/Aligned Games/Polygonal Post Apocalyptic Urban Ruins
+    Asset Package/Textures/atlass_1_diffuse.png
   uploadId: 600746

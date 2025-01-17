@@ -109,5 +109,6 @@ AssetOrigin:
   productId: 256133
   packageName: Polygonal Post Apocalyptic Urban Ruins Asset Package
   packageVersion: 1.0
-  assetPath: Assets/Aligned Games/Polygonal Post Apocalyptic Urban Ruins Asset Package/Models/Debris2/debris_2.fbx
+  assetPath: Assets/content/Aligned Games/Polygonal Post Apocalyptic Urban Ruins
+    Asset Package/Models/Debris2/debris_2.fbx
   uploadId: 600746
