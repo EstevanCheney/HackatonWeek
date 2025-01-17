@@ -15,6 +15,7 @@ TagManager:
   - Equipment
   - Enemy
   - Inspect
+  - Tank
   layers:
   - Default
   - TransparentFX

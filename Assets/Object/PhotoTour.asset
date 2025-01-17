@@ -14,4 +14,4 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   name: Photo Tour
   visual: {fileID: 21300000, guid: 997cebb8d28c6d14e88d6c11fcc8325c, type: 3}
-  prefab: {fileID: 605937329930442430, guid: a0f94a54b45c57d49a991e0f201cc045, type: 3}
+  prefab: {fileID: 605937329930442430, guid: 8dba1595fef538d41b341eac082c8d98, type: 3}

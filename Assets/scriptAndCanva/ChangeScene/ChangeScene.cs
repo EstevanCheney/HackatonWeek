@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,15 +19,14 @@ public class ChangeScene : MonoBehaviour
     {
         OnTriggerEnter(HitBox);
         OnTriggerExit(HitBox);
-        if (isPlayerIsIn && Input.GetKeyDown(KeyCode.F) && !end.StartEnd)
+        if (isPlayerIsIn && Input.GetKeyDown(KeyCode.F) && end.StartEnd)
         {
-            SceneManager.LoadScene("Bunker");
+            SceneManager.LoadScene("Bunker final");
         }
-
     }
     void OnTriggerEnter(Collider other)
     {
-        if (other.CompareTag("Player") && !end.StartEnd)
+        if (other.CompareTag("Player") && end.StartEnd)
         {
             isPlayerIsIn = true;
             interactionMessage.SetActive(true);
@@ -35,7 +35,7 @@ public class ChangeScene : MonoBehaviour
 
     void OnTriggerExit(Collider other)
     {
-        if (other.CompareTag("Player") && !end.StartEnd)
+        if (other.CompareTag("Player") && end.StartEnd)
         {
             isPlayerIsIn = false;
             interactionMessage.SetActive(false);
