@@ -3028,6 +3028,10 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -311
       objectReference: {fileID: 0}
+    - target: {fileID: 3107118107695138920, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
+      propertyPath: health
+      value: 100
+      objectReference: {fileID: 0}
     - target: {fileID: 5400515515986352105, guid: 3c7be3468c2a3a64cbce2b2fff0c11a8, type: 3}
       propertyPath: m_Name
       value: Canvas
@@ -8185,7 +8189,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "F" to leave
+  m_Text: "Appuye \"F\" pour int\xE9ragir"
 --- !u!222 &2144927934
 CanvasRenderer:
   m_ObjectHideFlags: 0

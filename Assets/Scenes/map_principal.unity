@@ -2604,7 +2604,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "F" to enter
+  m_Text: "Appuye \"F\" pour int\xE9ragir"
 --- !u!222 &85773158
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4076,7 +4076,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2491011436141641687, guid: 8a0877544186d5243a10fe023e0c91c5, type: 3}
       propertyPath: m_text
-      value: press "F" to interact
+      value: "Appuye \"F\" pour int\xE9ragir"
       objectReference: {fileID: 0}
     - target: {fileID: 2491011436141641687, guid: 8a0877544186d5243a10fe023e0c91c5, type: 3}
       propertyPath: m_fontSize
@@ -40118,6 +40118,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Zombie1 (1) 1 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3957389309697249189, guid: 1863dbbe15ec6bb4186224bfd68b46cf, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3989550877035450313, guid: 1863dbbe15ec6bb4186224bfd68b46cf, type: 3}
       propertyPath: m_LocalPosition.x
       value: -0.13316546
@@ -40954,6 +40958,10 @@ PrefabInstance:
     - target: {fileID: 6282429337005353920, guid: f7515e64d8b79c84197149d2a0a86a62, type: 3}
       propertyPath: m_Name
       value: HealthBarBackground
+      objectReference: {fileID: 0}
+    - target: {fileID: 8509303807455884789, guid: f7515e64d8b79c84197149d2a0a86a62, type: 3}
+      propertyPath: health
+      value: 100
       objectReference: {fileID: 0}
     - target: {fileID: 8509303807455884789, guid: f7515e64d8b79c84197149d2a0a86a62, type: 3}
       propertyPath: DeathMenu
@@ -44934,6 +44942,85 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1863dbbe15ec6bb4186224bfd68b46cf, type: 3}
+--- !u!1 &970544185
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 970544186}
+  - component: {fileID: 970544188}
+  - component: {fileID: 970544187}
+  m_Layer: 5
+  m_Name: PressGun
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!224 &970544186
+RectTransform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970544185}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1834572613}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_AnchorMin: {x: 0.5, y: 0.5}
+  m_AnchorMax: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: 770.46, y: 286}
+  m_SizeDelta: {x: 361.771, y: 67.832}
+  m_Pivot: {x: 0.5, y: 0.5}
+--- !u!114 &970544187
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970544185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5f7201a12d95ffc409449d95f23cf332, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_Material: {fileID: 0}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
+  m_RaycastTarget: 1
+  m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
+  m_Maskable: 1
+  m_OnCullStateChanged:
+    m_PersistentCalls:
+      m_Calls: []
+  m_FontData:
+    m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
+    m_FontSize: 50
+    m_FontStyle: 1
+    m_BestFit: 1
+    m_MinSize: 0
+    m_MaxSize: 50
+    m_Alignment: 4
+    m_AlignByGeometry: 0
+    m_RichText: 1
+    m_HorizontalOverflow: 0
+    m_VerticalOverflow: 0
+    m_LineSpacing: 1
+  m_Text: Appuye "E" pour sortie le pistoler
+--- !u!222 &970544188
+CanvasRenderer:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 970544185}
+  m_CullTransparentMesh: 1
 --- !u!1001 &976707306
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -57630,7 +57717,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "Escape" to leave inspection mode
+  m_Text: "Appuye \"F\" pour int\xE9ragir"
 --- !u!222 &1253182092
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -57673,8 +57760,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 754, y: 388}
-  m_SizeDelta: {x: 300.492, y: 56.342}
+  m_AnchoredPosition: {x: 721, y: 388}
+  m_SizeDelta: {x: 202.457, y: 42.341}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1253412800
 MonoBehaviour:
@@ -57698,18 +57785,18 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 20
+    m_FontSize: 50
     m_FontStyle: 1
-    m_BestFit: 0
+    m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 40
+    m_MaxSize: 50
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: 'Press "I" :'
+  m_Text: 'Appuye sur "I" :'
 --- !u!222 &1253412801
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -71704,7 +71791,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Press "F" to pickup
+  m_Text: "Appuye \"F\" pour int\xE9ragir"
 --- !u!222 &1711691891
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -75798,6 +75885,7 @@ RectTransform:
   - {fileID: 1613062343}
   - {fileID: 2138953919}
   - {fileID: 1253412799}
+  - {fileID: 970544186}
   - {fileID: 1875880339}
   - {fileID: 2061138998}
   - {fileID: 1983083107}
@@ -87678,7 +87766,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2491011436141641687, guid: 8a0877544186d5243a10fe023e0c91c5, type: 3}
       propertyPath: m_text
-      value: press "F" to interact
+      value: "Appuye \"F\" pour int\xE9ragir"
       objectReference: {fileID: 0}
     - target: {fileID: 2491011436141641687, guid: 8a0877544186d5243a10fe023e0c91c5, type: 3}
       propertyPath: m_fontSize
@@ -88391,7 +88479,7 @@ PrefabInstance:
       objectReference: {fileID: 1211799670}
     - target: {fileID: 6026039282440530992, guid: 19f805e8497852145b05f824c65209d5, type: 3}
       propertyPath: content.Array.size
-      value: 4
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026039282440530992, guid: 19f805e8497852145b05f824c65209d5, type: 3}
       propertyPath: inventorySlotParent
