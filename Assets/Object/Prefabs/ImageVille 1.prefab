@@ -14,8 +14,8 @@ GameObject:
   - component: {fileID: -5421324329582771376}
   - component: {fileID: -8035475435259169274}
   m_Layer: 6
-  m_Name: ImageVille
-  m_TagString: Item
+  m_Name: ImageVille 1
+  m_TagString: Inspect
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -28,7 +28,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 3311394609713340368}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0.5025325, y: -0.02424128, z: -0.7692493, w: 0.39386418}
   m_LocalPosition: {x: 47.8844, y: 0.283, z: 52.406837}
   m_LocalScale: {x: 2, y: 2, z: 2}
   m_ConstrainProportionsScale: 1
@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21191d4fb0dae7047918d93cdf6b856f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actualObject: {fileID: 3311394609713340368, guid: 33c76bbb636035245a0853bdba25fcae, type: 3}
+  actualObject: {fileID: 3311394609713340368}
   player: {fileID: 6412946784857067778, guid: fa74d260e52f72f47b552aac2eaf2216, type: 3}
   text: {fileID: 5093632059833956523, guid: 9ca1af3422a62124e8a37036442e70bf, type: 3}
   canRotate: 0

@@ -128,7 +128,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 21191d4fb0dae7047918d93cdf6b856f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  actualObject: {fileID: 605937329930442430, guid: 8dba1595fef538d41b341eac082c8d98, type: 3}
+  actualObject: {fileID: 605937329930442430, guid: 8bbc51cff2e2f6441bad541f3f89d5a6, type: 3}
   player: {fileID: 6412946784857067778, guid: fa74d260e52f72f47b552aac2eaf2216, type: 3}
   text: {fileID: 4747878230810874165, guid: d0a8e438a3f77754da1d236370c53201, type: 3}
   canRotate: 0
