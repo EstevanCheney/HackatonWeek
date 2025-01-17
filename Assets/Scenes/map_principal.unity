@@ -88473,7 +88473,7 @@ PrefabInstance:
       objectReference: {fileID: 1211799670}
     - target: {fileID: 6026039282440530992, guid: 19f805e8497852145b05f824c65209d5, type: 3}
       propertyPath: content.Array.size
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6026039282440530992, guid: 19f805e8497852145b05f824c65209d5, type: 3}
       propertyPath: inventorySlotParent
